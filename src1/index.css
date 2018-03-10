@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  padding: 0 45px;
+}
+.am-navbar{
+  position: fixed;
+  top: 0;
+}
+.am-tab-bar{
+  position: fixed;
+  bottom: 0;
+}
+
