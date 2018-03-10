@@ -1,7 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import {List} from 'antd-mobile';
-import Badge from '../../../node_modules/_antd-mobile@2.1.3@antd-mobile/lib/badge';
+import {List, Badge} from 'antd-mobile';
 @connect(
     state => state
 )
