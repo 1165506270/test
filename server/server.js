@@ -9,7 +9,7 @@ const Chat = models.getModel('chat')
 const app = express();
 
 //使用中间件
-app.use(express.static('../build'));
+// app.use(express.static('../build'));
 const server = require('http').Server(app);  
 const io = require('socket.io')(server);  
 io.on('connection', (socket) => {      
@@ -49,6 +49,7 @@ app.use('/user', userRouter);
 
 
 app.get('/', function(req, res) {
+    console.log(req.ip)
     res.send('hello word');
 })
 app.get('/data', (req, res) => {
