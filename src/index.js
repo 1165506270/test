@@ -14,6 +14,7 @@ import BossInfo from './container/bossInfo/bossInfo'
 import GeniusInfo from './container/geniusInfo/geniusInfo'
 import Dashboard from './component/dashboard/dashboard'
 import Chat from './component/chat/chat'
+import Learn from './component/learn/learn'
 import registerServiceWorker from './registerServiceWorker'
 
 const reduxDevtools = window.devToolsExtension ? window.devToolsExtension() : f => f
@@ -30,13 +31,14 @@ ReactDOM.render(
     (<Provider store={ store }>
         <BrowserRouter>
             <div>
-                <AuthRoute></AuthRoute>
+                {/* <AuthRoute></AuthRoute> */}
                 <Switch>
                     <Route path="/login" component={Login}></Route>
                     <Route path="/register" component={Register}></Route>
                     <Route path="/bossInfo" component={BossInfo}></Route>
                     <Route path="/geniusInfo" component={GeniusInfo}></Route>
                     <Route path="/chat/:user" component={Chat}></Route>
+                    <Route path="/learn" component={Learn}></Route>
                     <Route component={Dashboard}></Route>
                 </Switch>
                 

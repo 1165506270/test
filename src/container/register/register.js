@@ -43,7 +43,7 @@ class Register extends React.Component{
                         onChange={v=> this.props.handleChange('repeatpwd', v)}
                     >确认密码</InputItem>
                     <WhiteSpace />
-                    <RadioItem 
+                    {/* <RadioItem 
                         checked={this.props.state.type === 'genius'}
                         onChange={()=> this.props.handleChange('type', 'genius')}
                     >
@@ -54,7 +54,7 @@ class Register extends React.Component{
                         onChange={()=> this.props.handleChange('type', 'boss')}
                     >
                         BOSS
-                    </RadioItem>
+                    </RadioItem> */}
                 </List>
                 <WhiteSpace />
                 <Button type="primary" onClick={() => this.hanldeRigiter()}>注册</Button>
