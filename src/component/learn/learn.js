@@ -161,6 +161,86 @@ const arr = [
         english: `My classmate is much cleverer than I.`,
         chinese: '我的同学比我聪明多了。'
     },
+    {
+        english: `Our textbooks are very different from theirs.`,
+        chinese: '我们的教材与他们的很不一样。'
+    },
+    {
+        english: `People all over the world are trying to help people in the quake-striken areas.`,
+        chinese: '全世界的人们都在尽力帮助地震灾区的人民。'
+    },
+    {
+        english: `She likes to help anyone who is in difficulty.`,
+        chinese: '她乐意帮助任何一个有困难的人。'
+    },
+    {
+        english: `Ted and William have lived under the same roof for five years.`,
+        chinese: '泰德和威廉己经在同一个屋檐下生活了五年了。'
+    },
+    {
+        english: `The doctor had no choice but reach out to their colleagues across the nation.`,
+        chinese: '那个医生别无选择，只能向全国的同行求助。'
+    },
+    {
+        english: `The doctor told me to have more water.`,
+        chinese: '医生让我多喝些水。'
+    },
+    {
+        english: `The friend saw everything but did not say a single word.`,
+        chinese: '这位朋友看到了一切，但一言不发。'
+    }, 
+    {
+        english: `The more passions we have, the more happiness we are likely to experience.`,
+        chinese: '我们的激情越多，我们有可能体验到的快乐就越多。'
+    }, 
+    {
+        english: `The Olympic Games is an international sports event that takes place every four years.`,
+        chinese: '奥林匹克运动会是一项国际性的体育盛会，每四年举办一次。'
+    }, 
+    {
+        english: `The People，s Republic of China (PRC), founded on October 1，1949，covers an area of 9.6 million square kilometers.`,
+        chinese: '中华人民共和国成立于1949年10月1日，国土面积约960万平方公里。'
+    }, 
+    {
+        english: `The students are encouraged by their teacher to do more listening, reading and writing.`,
+        chinese: '老师鼓励学生多听，多读，多写。'
+    },
+    {
+        english: `The traffic jams during morning and afternoon rush hours are a headache in big cities now.`,
+        chinese: '上下班高峰期的交通拥堵问题是大城市目前的一个棘手问题。'
+    }, 
+    {
+        english: `There is a large amount of energy wasted due to friction (摩檫）.`,
+        chinese: '由于摩檫而损耗了大量的能量。'
+    }, 
+    {
+        english: `They thought that there must be something wrong with their TV set.`,
+        chinese: '他们认为电视机一定出毛病了。'
+    }, 
+    {
+        english: `This box can hold more books than that one.`,
+        chinese: '这个箱子比那个箱子能装更多的书。'
+    }, 
+    {
+        english: `This new country hopes to establish friendly relations with all its neighbours`,
+        chinese: '这个新成立的国家希望和所有邻国建立友好关系。'
+    }, 
+    {
+        english: `This place has plentiful material resources.`,
+        chinese: '这个地方的物质资源非常丰富。'
+    }, 
+    {
+        english: `Transistors are small in size and light in weight.`,
+        chinese: '晶体管的体积小，重量轻。'
+    }, 
+    {
+        english: `Trees need water to grow.`,
+        chinese: '树木有水才能成长。'
+    }, 
+    {
+        english: `Various substances differ widely in their magnetic characteristics.`,
+        chinese: '不同材料的磁性有很大的差别。'
+    }, 
 ]
 class Learn extends React.Component{
     constructor() {
