@@ -241,6 +241,86 @@ const arr = [
         english: `Various substances differ widely in their magnetic characteristics.`,
         chinese: '不同材料的磁性有很大的差别。'
     }, 
+    {
+        english: `We must take some measures to control the pollution.`,
+        chinese: '我们必须采取措施来控制污染。'
+    }, 
+    {
+        english: `We should encourage him to have confidence in himself.`,
+        chinese: '我们应该鼓励他对自己要有信心。'
+    }, 
+    {
+        english: `What kind of life do most people enjoy?`,
+        chinese: '大多数人喜欢什么样的生活?'
+    }, 
+    {
+        english: `What time do you go swimming every day?`,
+        chinese: '你每天何时去游泳?'
+    }, 
+    {
+        english: ` Who can help me clean the room?`,
+        chinese: '谁能帮我打扫房间?'
+    }, 
+    {
+        english: ` Would you mind closing the window for me?`,
+        chinese: '能帮我关一下窗户吗??'
+    }, 
+    {
+        english: ` Would you please help me with this heavy box?`,
+        chinese: '你能帮我抬一下这个沉箱子吗??'
+    }, 
+    {
+        english: ` You and your team can discover the answers to problems together.`,
+        chinese: '你和你的团队能够一起找出问题的答案。?'
+    }, 
+    {
+        english: ` You needn' t go there anymore. He already knows about it.`,
+        chinese: '你不必去了，他已经知道那件事了。?'
+    }, 
+    {
+        english: ` You’d better do that again.`,
+        chinese: '你最好再做一遍。'
+    }, 
+    {
+        english: `A dog is always well-known as a clever and friendly animal.`,
+        chinese: '众所周知，狗是聪明而友好的动物。'
+    }, 
+    {
+        english: `A dolphin is always well known as a clever and friendly animal.`,
+        chinese: '众所周知，海豚是聪明而友好的动物。'
+    }, 
+    {
+        english: `A good memory is a great help in learning a language.`,
+        chinese: '好的记忆力在学习一门语言时很有帮助。'
+    }, 
+    {
+        english: `A man who believes he is incapable cannot make a real effort.`,
+        chinese: '一个认为自己没有能力的人不会做出真正的努力。'
+    }, 
+    {
+        english: `A teacher should have patience in his work.`,
+        chinese: '教师在工作中应该有耐心。'
+    },
+    {
+        english: `About half of the fruit is ripe.`,
+        chinese: '大约一半的水果熟了。'
+    }, 
+    {
+        english: `Air pollution is more serious than water pollution.`,
+        chinese: '空气污染比水污染更严重。'
+    }, 
+    {
+        english: `Are you willing to denote more for the poor people?`,
+        chinese: '你愿意为穷人多捐一点吗?'
+    }, 
+    {
+        english: `As long as there is water, plant won' t die quickly.`,
+        chinese: '只要有水，植物不会很快死亡。'
+    },
+    {
+        english: `Because there was heavy traffic, we were ten minutes late.`,
+        chinese: '因为交通拥堵，我们迟到了10 分钟。'
+    },
 ]
 class Learn extends React.Component{
     constructor() {
