@@ -321,7 +321,163 @@ const arr = [
         english: `Because there was heavy traffic, we were ten minutes late.`,
         chinese: '因为交通拥堵，我们迟到了10 分钟。'
     },
-]
+    {
+        english: `Before leaving the classroom, please turn off the li ghts.`,
+        chinese: '离开教室之前，请关灯。'
+    },
+    {
+        english: `Beijing 0lympics can make Chinese people work harder.`,
+        chinese: '北京奥运会能让中国人工作更努力。'
+    },
+    {
+        english: `Bob and Peter found out that they were twin brothers.`,
+        chinese: '鲍勃和皮特发现他们是双胞胎兄弟。'
+    },
+    {
+        english: `But I’ve got room for only two of you in the house. `,
+        chinese: '但是我房子里的空间只够你们中的两个人。'
+    },
+    {
+        english: `But it looks like something I would never buy.`,
+        chinese: '但是这看起来像是那种我永远都不会买的东西。'
+    },
+    {
+        english: `By 1900， states had laws against selling cigarettes to young people.`,
+        chinese: '到1900年，美国已经有了法律禁止向年轻人销售香烟。'
+    },
+    {
+        english: `Can I download this material without paying any money?`,
+        chinese: '我能不花钱下载这些资料吗?'
+    },
+    {
+        english: `Can you express yourself clearly in English?`,
+        chinese: '你能用英语清晰地表达自己吗?'
+    },
+    {
+        english: `China is the largest developing country in the world.`,
+        chinese: '中国是世界上最大的发展中国家。'
+    },
+    {
+        english: `China will build up a space station in ten years.`,
+        chinese: '中国将会在十年内建立一个空间站。'
+    },
+    {
+        english: `Christmas is the most important festival in the west.`,
+        chinese: '圣诞节是西方最重要的节日。'
+    },
+    {
+        english: `Did you get that Email from me?`,
+        chinese: '你收到我的那封电子邮件了吗?'
+    },
+    {
+        english: `Could you give me a cup of coffee， please?`,
+        chinese: '请你给我-杯咖啡?'
+    },
+    {
+        english: `Did you go fishing with your friend last Sunday?`,
+        chinese: '你上周日和朋友去钓鱼了吗?'
+    },
+    {
+        english: `Do you go swimming every day?`,
+        chinese: '你每天都去游泳吗?'
+    },
+    {
+        english: `Do you mind my opening the window?`,
+        chinese: '你介意我打开窗户吗?'
+    },
+    {
+        english: `Do you mind my smoking here?`,
+        chinese: '您介意我在这里吸烟吗?'
+    },
+    {
+        english: `Do you often do your washing in the evening?`,
+        chinese: '你常常晚上洗衣服吗?'
+    },
+    {
+        english: `Do you still have anything that you don’t understand?`,
+        chinese: '你还有什么不明白的吗??'
+    },
+    {
+        english: `Do you think students should do a part-time job?`,
+        chinese: '你认为学生应该做兼职吗?'
+    },
+    {
+        english: `Does the computer have instructions on it?`,
+        chinese: '电脑_上有说明吗?'
+    },
+    {
+        english: `Don’t trust him no matter what he says.`,
+        chinese: '不管他说什么都别相信他。'
+    },
+    {
+        english: `Each year some of his money is given to the best scientists and writers of the world.`,
+        chinese: '每年他的一部分钱都用于奖励全世界最优秀的科学家和作家。'
+    },
+    {
+        english: `Eastern culture is different from western.`,
+        chinese: '东方文化与西方文化不同。'
+    },
+    {
+        english: `Everyone was in bed except me.`,
+        chinese: '除了我，每个人都上床睡了。'
+    },
+    {
+        english: `Excuse me，where is the nearest police station?`,
+        chinese: '对不起(打扰一下)，最近的警察局在哪儿?'
+    },
+    {
+        english: `Excuse me. Could you tell me how to get to the cinema?`,
+        chinese: '劳驾，你能告诉我如何去电影院吗?'
+    },
+    {
+        english: `Few of them believe you.`,
+        chinese: '他们当中很少有人相信你.'
+    },
+    {
+        english: `Fewer high school students are smoking now than a few years ago.`,
+        chinese: '现在吸烟的高中生比几年前少了。'
+    },
+    {
+        english: `Fires may do more damage than the earthquakes.`,
+        chinese: '火灾可能比地震造成更大的破坏。'
+    },
+    {
+        english: `Five days is too long for me to wait. Do you want to wait?`,
+        chinese: '五天的等待对我来说太久了，你想等吗?'
+    },
+    {
+        english: `Flight 220 is scheduled to arrive at 10:30 pm.`,
+        chinese: '220次航班预计在晚上十点半到达。'
+    },
+    {
+        english: `From the East Coast to the West Coast it is about 3,000 miles wide.`,
+        chinese: '从东海岸到西海岸大约3,000英里宽。'
+    },
+    {
+        english: `Give us a few more minutes to decide.`,
+        chinese: '再给我们几分钟来做决定。'
+    },
+    {
+        english: `Go down this street until you reach the second traffic lights.`,
+        chinese: '沿着这条街一直走到第二个红绿灯。'
+    },
+    {
+        english: `Good health is an essential part of good life.`,
+        chinese: '健康的身体是好生活的重要部分。'
+    },
+    {
+        english: `He called the doctor and made sure that they would meet at five.`,
+        chinese: '他给医生打电话确认五点见面。'
+    },
+    {
+        english: `He doesn’t know what life means to him.`,
+        chinese: '他不知道生活对他意味着什么。'
+    },
+    {
+        english: `He doesn’ t like the way you talk to him.`,
+        chinese: '他不喜欢你和他说话的方式'
+    },
+].sort((_) => Math.random() > 0.5);
 class Learn extends React.Component{
     constructor() {
         super();
