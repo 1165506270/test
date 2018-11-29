@@ -477,7 +477,254 @@ const arr = [
         english: `He doesn’ t like the way you talk to him.`,
         chinese: '他不喜欢你和他说话的方式'
     },
-].sort((_) => Math.random() > 0.5);
+    {
+        english: `He wanted to help all the wounded people no matter which side they were fighting for.`,
+        chinese: '他想帮助所有的伤员，无论他们是为哪一方而战。'
+    },
+    {
+        english: `He was pleased with the fine weather.`,
+        chinese: '他对这样的好天气很满意。'
+    },
+    {
+        english: `He was satisfied with his new car, and drove to work in it the very next day.`,
+        chinese: '他对他的新车很满意，第二天就开着上班去了。'
+    },
+    {
+        english: `He was too tired to go on reading.`,
+        chinese: '他太累了，无法继续阅读。'
+    },
+    {
+        english: `He’s growing more like his father now.`,
+        chinese: '他现在长得更像他的父亲了。'
+    },
+    {
+        english: `How did you spend your holiday?`,
+        chinese: '你的假期怎么过的?'
+    },
+    {
+        english: `How do you spell your last name?`,
+        chinese: '你怎么拼写你的姓?'
+    },
+    {
+        english: `How long have you been collecting stamps?`,
+        chinese: '你集邮多久了?'
+    },
+    {
+        english: `How long will it take us to get there?`,
+        chinese: '我们多久能到那儿?'
+    },
+    {
+        english: `How long will you be staying in China?`,
+        chinese: '你将在中国待多久?'
+    },
+    {
+        english: `How much does a parrot like this cost?`,
+        chinese: '像这样的一只鹦鹉值多少钱?'
+    },
+    {
+        english: `I am finishing my second years of study.`,
+        chinese: '我正在完成第二年的学业。'
+    },
+    {
+        english: `I am very familiar with his name.`,
+        chinese: '我很熟悉他的名字。'
+    },
+    {
+        english: `I am writing this letter to complain about the service in your hotel.`,
+        chinese: '我写这封信是要投诉你们宾馆的服务。'
+    },
+    {
+        english: `I came back because of rain.`,
+        chinese: '因为下雨，我回来了。'
+    },
+    {
+        english: `I came here at least once a month.`,
+        chinese: '我每月至少来这一次。'
+    },
+    {
+        english: `I can't go with you today because I’m too busy.`,
+        chinese: '我今天不能跟你一起去， 因为我太忙。'
+    },
+    {
+        english: `I could hardly agree to what you said just now.`,
+        chinese: '我几乎无法同意你刚才说的。'
+    },
+    {
+        english: `I do want to know what really happened.`,
+        chinese: '我很想知道发生了什么事。'
+    },
+    {
+        english: `I came here at least once a month.`,
+        chinese: '我每月至少来这一次。'
+    },
+    {
+        english: `He had a traffic accident last Sunday.`,
+        chinese: '他上周日出了交通事故。'
+    },
+    {
+        english: `He had a traffic accident last week.`,
+        chinese: '他_上周发生了交通事故。'
+    },
+    {
+        english: `He had to leave early yesterday.`,
+        chinese: '他昨天必须早走。'
+    },
+    {
+        english: `He has sympathy for all poor people.`,
+        chinese: '他对所有穷人都有同情心。'
+    },
+    {
+        english: `He has the habit of making notes while reading.`,
+        chinese: '他有一边阅读一边记笔记的习惯。'
+    },
+    {
+        english: `He is a world famous pop star.`,
+        chinese: '他是一个世界著名的明星。'
+    },
+    {
+        english: `He is a worldwide famous scientist.`,
+        chinese: '他是一个世界著名的科学家。'
+    },
+    {
+        english: `He is always looking for excuses for being late.`,
+        chinese: '他总是为迟到找借口。'
+    },
+    {
+        english: `He is always very active in student activities.`,
+        chinese: '他在学生活动中总是很积极。'
+    },
+    {
+        english: `He is one of the greatest writers in the world.`,
+        chinese: '他是世界上最伟大的作家之--。'
+    },
+    {
+        english: `He is sweating all over.`,
+        chinese: '他全身都是汗。'
+    },
+    {
+        english: `He keeps looking at himself in the mirror.`,
+        chinese: '他不停地照镜子。'
+    },
+    {
+        english: `He likes to help anyone who is in difficulty.`,
+        chinese: '他喜欢帮助任何有困难的人。'
+    },
+    {
+        english: `He lives in a small room with only one small window. `,
+        chinese: '他住在一间只带--个小窗户的小屋里。'
+    },
+    {
+        english: `He looks much older than his age.`,
+        chinese: '他看起来比实际年龄老。'
+    },
+    {
+        english: `He offered to help us with our work.`,
+        chinese: '他主动帮助我们干活。'
+    },
+    {
+        english: `He often went from town to town giving lectures.`,
+        chinese: '他常常从一个城镇到另一个城镇作演讲。'
+    },
+    {
+        english: `He shows a great interest in learning English.`,
+        chinese: '他对英语学习表现出很大的兴趣。'
+    },
+    {
+        english: `He stopped smoking.`,
+        chinese: '他不再吸烟了。/ 他戒烟了'
+    },
+    {
+        english: `He stopped to smoke.`,
+        chinese: '他停下来去抽烟。'
+    },
+    {
+        english: `I don’t think he can operate the new type of computer. `,
+        chinese: '我认为他不会操作这种新型电脑。'
+    },
+    {
+        english: `I enjoyed this meal thoroughly. `,
+        chinese: '我非常喜欢这顿饭。'
+    },
+    {
+        english: `I feel lonely without you.`,
+        chinese: '没有你，我感到孤独。'
+    },
+    {
+        english: `I feel satisfied with my life.`,
+        chinese: '我对我的生活很满意。'
+    },
+    {
+        english: `I got married ten years ago.`,
+        chinese: '我十年前结的婚。'
+    },
+    {
+        english: `I got there by plane late at night. `,
+        chinese: '我深夜乘飞机到达那里。'
+    },
+    {
+        english: `I got to the library by bus.`,
+        chinese: '我乘公共汽车去图书馆。'
+    },
+    {
+        english: `I had no choice.`,
+        chinese: '我别无选择。'
+    },
+    {
+        english: `I have a foreign friend who lives in America.`,
+        chinese: '我有一个住在美国的外国朋友。'
+    },
+    {
+        english: `I have no interest in what they say about me.`,
+        chinese: '我对他们怎么说我没有兴趣。'
+    },
+    {
+        english: `I hope you will change your mind tomorrow.`,
+        chinese: '我希望你明天会改变你的想法。'
+    },
+    {
+        english: `I look forward to hearing from you.`,
+        chinese: '我期待收到你的来信。'
+    },
+    {
+        english: `I looked for the book on the desk but it was nowhere.`,
+        chinese: '我在桌_上找那本书，但是哪儿也找不到。'
+    },
+    {
+        english: `I met one of my old friends on my way home yesterday evening.`,
+        chinese: '我昨天晚上在回家的路上遇见了一个老朋友。'
+    },
+    {
+        english: `I need to buy some 50-cent stamps.`,
+        chinese: '我需要买一些50分的邮票。'
+    },
+    {
+        english: `I need you to fill out the top portion of the form first.`,
+        chinese: '我需要你先把这个表格的上部填上。'
+    },
+    {
+        english: `I picked up the bag to protect my face from the smoke and heat.`,
+        chinese: '我拿起包保护我的脸，以免被烟热伤到。'
+    },
+    {
+        english: `I play football with my classmates.`,
+        chinese: '我和同学们一起踢足球。'
+    },
+    {
+        english: `I prefer tea to coffee.`,
+        chinese: '与咖啡相比，我更喜欢茶。'
+    },
+    {
+        english: `I reached Beijing early in the morning. `,
+        chinese: '我今天早上到的北京。'
+    },
+].reverse();
+
+178. 
+
+179. 
+
+180. 
+
 class Learn extends React.Component{
     constructor() {
         super();
